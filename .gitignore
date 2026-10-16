@@ -1,0 +1,17 @@
+# Secrets - never commit
+.env
+
+# Virtual environment (rebuild with: pip install -r requirements.txt)
+.venv/
+
+# Data the program writes each run
+prices.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
+Thumbs.db
